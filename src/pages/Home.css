@@ -1,0 +1,15 @@
+.btn{
+    background-image: linear-gradient(to right, #F5E500, #F2A800);
+    width: 170px;
+    height: 50px;
+    border-radius: 40px;
+    color: white;
+    font-weight: bolder;
+    transition-duration: 500ms;
+    text-align: right;
+    
+}
+.btn:hover{
+    transform: scale(1.05);
+    
+}
