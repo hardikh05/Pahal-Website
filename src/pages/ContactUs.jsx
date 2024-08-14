@@ -5,6 +5,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 
 const ContactUs = () => {
+    document.title = "Pahal | Contact Us";
     return (
         <div className="w-screen min-h-screen">
             <img src={contact} alt="" className="w-full md:h-[570px] h-auto" />

@@ -6,6 +6,7 @@ import Testimonials from "../components/Testimonials";
 import reviews from '../data'
 
 const Home = () => {
+  document.title = "Pahal | Home";
   return (
     <div>
       {/* Hero Section */}
