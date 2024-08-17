@@ -44,7 +44,7 @@ function Navbar() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/">About Us</Link>
+            <Link to="/aboutus">About Us</Link>
           </li>
           <li>
             <Link to="/">Projects</Link>

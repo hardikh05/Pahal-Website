@@ -36,4 +36,31 @@ const reviews = [
   // },
 ];
 
+
+export const value = [
+  {
+      number: "1",
+      value : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui minus corporis atque voluptatum cupiditate aperiam laudantium molestias a ducimus temporibus"
+  }
+  ,
+  {
+      number: "2",
+      value : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui minus corporis atque voluptatum cupiditate aperiam laudantium molestias a ducimus temporibus"
+  },
+  {
+      number: "3",
+      value : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui minus corporis atque voluptatum cupiditate aperiam laudantium molestias a ducimus temporibus"
+  },
+  {
+      number: "4",
+      value : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui minus corporis atque voluptatum cupiditate aperiam laudantium molestias a ducimus temporibus"
+  },
+  {
+      number: "5",
+      value : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui minus corporis atque voluptatum cupiditate aperiam laudantium molestias a ducimus temporibus"
+  }
+]
+
+
+
 export default reviews;
