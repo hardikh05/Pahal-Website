@@ -9,7 +9,7 @@ import AboutUs from './pages/AboutUs'
 function App() {
   return (
     <div className="pl-3 pr-3 justify-center">
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/aboutus" element={<AboutUs />}></Route>

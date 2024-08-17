@@ -3,6 +3,7 @@ import TeamCard from "../components/TeamCard";
 import "./Team.css";
 
 const Team = () => {
+  document.title = "Pahal | Team";
   return (
     <div className="">
       <div className="patrons">
