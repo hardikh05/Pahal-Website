@@ -5,8 +5,6 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import img1 from "../assets/about us.jpg";
-import img2 from "../assets/hero image.png";
 import "./Testimonials.css";
 import TestCard from "./TestCard";
 
@@ -15,11 +13,14 @@ const Testimonials = (props) => {
   return (
     <div>
       <div className="flex items-center justify-between">
-        <div className="line"></div>
-        <div className="bg-[#f4f1f1] rounded-lg w-64">
-          <h1 className="font-main-head text-2xl font-bold p-2 text-center">Testimonials</h1>
+      <div className="flex w-full justify-center items-center gap-5">
+        <div className="h-[3px] w-[30%] bg-[#f4f1f1]"></div>
+        <div className="bg-[#f4f1f1] text-xl px-4 py-2 max-[640px]:text-base font-bold rounded-md font-main-head">
+          {" "}
+          Testimonials
         </div>
-        <div className="line"></div>
+        <div className="h-[3px] w-[30%] bg-[#f4f1f1]"></div>
+      </div>
       </div>
       <div className="container">
         <Swiper 

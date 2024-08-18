@@ -3,6 +3,7 @@ import AboutusContent from '../components/AboutUsContent'
 import hero from '../assets/main.jpg'
 
 const AboutUs = () => {
+  document.title="Pahal | About Us";
   return (
       <div className='h-full w-full'>
         <div className="flex flex-col items-center relative text-default pb-5">

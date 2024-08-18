@@ -4,7 +4,7 @@ const ConForm = () => {
     return (
         <div>
             <div className="flex flex-col">
-                <div className=" p-6 bg-white border border-gray-300 rounded-lg shadow-lg ml-5">
+                <div className=" p-6 bg-white border border-gray-300 rounded-lg shadow-lg">
                     <h2 className="text-2xl font-bold mb-2">
                         <span className="text-black">HELP </span>
                         <span className="text-red-600">DESK</span>

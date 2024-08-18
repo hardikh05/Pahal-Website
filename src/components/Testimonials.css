@@ -60,23 +60,24 @@ html {
 } */
 
 .container {
-  max-width: 120rem;
-  padding: 4rem 1rem;
-  margin: 0 auto;
-  
+  max-width: 180rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  /* margin: 0 auto; */
+  overflow: visible;
 }
 
-.heading {
+/* .heading {
   padding: 1rem 0;
   font-size: 3.5rem;
   text-align: center;
-}
+} */
 
 .swiper_container {
   height: 52rem;
   /* padding: 2rem 0; */
   position: relative;
-  
+  overflow: visible;
 }
 
 .swiper-slide {
