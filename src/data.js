@@ -26,6 +26,13 @@ const reviews = [
     place: "Waranga",
     image: "https://aeccc.targettechnology.in/static/media/SaikatMukherjee.033310703edff52d0532.jpg",
     text: "Pahal is so much fun! I like the games and the volunteers are really nice.",
+  },
+  {
+    id: 5,
+    name: "Aditya",
+    place: "Waranga",
+    image: "https://aeccc.targettechnology.in/static/media/SaikatMukherjee.033310703edff52d0532.jpg",
+    text: "Pahal is so much fun! I like the games and the volunteers are really nice.",
   }
   // {
   //   id: 5,

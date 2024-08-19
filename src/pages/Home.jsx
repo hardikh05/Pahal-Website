@@ -55,9 +55,9 @@ const Home = () => {
       </div>
 
       {/* Testimonials */}
-      {/* <div className="mt-12 mx-4 sm:mx-8 lg:mx-12">
+      <div className="mt-12 mx-4 sm:mx-8 lg:mx-12">
         <Testimonials reviews={reviews} />
-      </div> */}
+      </div>
     </div>
   );
 };

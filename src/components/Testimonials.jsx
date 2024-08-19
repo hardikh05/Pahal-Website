@@ -1,10 +1,10 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import React from "react";
-import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
+import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import React from "react";
 import "./Testimonials.css";
 import TestCard from "./TestCard";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
@@ -36,12 +36,16 @@ const Testimonials = (props) => {
             modifier: 2.5,
           }}
           className="swiper-container"
-          modules={[EffectCoverflow, Pagination, Navigation]}
+          modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
           pagination={{ el: ".swiper-pagination", clickable: true }}
           navigation={{
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
             clickable: true,
+          }}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
           }}
         >
           {reviews.map((review, index) => (
@@ -51,11 +55,11 @@ const Testimonials = (props) => {
           ))}
         </Swiper>
         <div className="slider-controler">
-          <div className="swiper-button-prev slider-arrow">
+          <div className="swiper-button-prev cursor-pointer slider-arrow">
             <span className="w-5 h-5">
             <FaArrowLeft className="text-sm w-2 h-2" /></span>
           </div>
-          <div className="swiper-button-next slider-arrow">
+          <div className="swiper-button-next cursor-pointer slider-arrow">
             <span className="w-5 h-5">
             <FaArrowRight className="text-sm w-2 h-2" /></span>
           </div>
