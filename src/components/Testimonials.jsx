@@ -7,23 +7,23 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "./Testimonials.css";
 import TestCard from "./TestCard";
+import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
 const Testimonials = (props) => {
-  let reviews = props.reviews;
+  const reviews = props.reviews;
   return (
     <div>
       <div className="flex items-center justify-between">
-      <div className="flex w-full justify-center items-center gap-5">
-        <div className="h-[3px] w-[30%] bg-[#f4f1f1]"></div>
-        <div className="bg-[#f4f1f1] text-xl px-4 py-2 max-[640px]:text-base font-bold rounded-md font-main-head">
-          {" "}
-          Testimonials
+        <div className="flex w-full justify-center items-center gap-5">
+          <div className="h-[3px] w-[30%] bg-[#f4f1f1]"></div>
+          <div className="bg-[#f4f1f1] text-xl px-4 py-2 max-[640px]:text-base font-bold rounded-md font-main-head">
+            Testimonials
+          </div>
+          <div className="h-[3px] w-[30%] bg-[#f4f1f1]"></div>
         </div>
-        <div className="h-[3px] w-[30%] bg-[#f4f1f1]"></div>
-      </div>
       </div>
       <div className="container">
-        <Swiper 
+        <Swiper
           effect={"coverflow"}
           grabCursor={true}
           centeredSlides={true}
@@ -39,34 +39,28 @@ const Testimonials = (props) => {
           modules={[EffectCoverflow, Pagination, Navigation]}
           pagination={{ el: ".swiper-pagination", clickable: true }}
           navigation={{
-            nextEl: "swiper-button-next",
-            prevEl: "swiper-button-prev",
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
             clickable: true,
           }}
         >
-          <SwiperSlide>
-            <TestCard review={reviews[0]}></TestCard>
-          </SwiperSlide>
-          <SwiperSlide>
-            <TestCard review={reviews[1]}></TestCard>
-          </SwiperSlide>
-          <SwiperSlide>
-            <TestCard review={reviews[2]}></TestCard>
-          </SwiperSlide>
-          <SwiperSlide>
-            <TestCard review={reviews[3]}></TestCard>
-          </SwiperSlide>
-
-          <div className="slider-controler">
-            <div className="swiper-button-prev slider-arrow">
-              <ion-icon name="arrow-back-outline"></ion-icon>
-            </div>
-            <div className="swiper-button-next slider-arrow">
-              <ion-icon name="arrow-forward-outline"></ion-icon>
-            </div>
-            <div className="swiper-pagination"></div>
-          </div>
+          {reviews.map((review, index) => (
+            <SwiperSlide key={index}>
+              <TestCard review={review} />
+            </SwiperSlide>
+          ))}
         </Swiper>
+        <div className="slider-controler">
+          <div className="swiper-button-prev slider-arrow">
+            <span className="w-5 h-5">
+            <FaArrowLeft className="text-sm w-2 h-2" /></span>
+          </div>
+          <div className="swiper-button-next slider-arrow">
+            <span className="w-5 h-5">
+            <FaArrowRight className="text-sm w-2 h-2" /></span>
+          </div>
+          <div className="swiper-pagination"></div>
+        </div>
       </div>
     </div>
   );

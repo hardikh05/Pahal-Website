@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "name": "Dr. O.G. Kakde",
+        "image": "https://iiitn.ac.in/images/director.jpg",
+        "desg1": "Director",
+        "iglink": "https://iiitn.ac.in/page/director/25/",
+        "linkedinlink":"https://iiitn.ac.in/page/director/25/"
+    },
+    {
+        "id": 2,
+        "name": "Shri Kailash N. Dakhle",
+        "image": "https://iiitn.ac.in/images/faculty/knd.jpg",
+        "desg1": "Registrar",
+        "iglink": "https://iiitn.ac.in/page/registrar/232/",
+        "linkedinlink":"https://iiitn.ac.in/page/registrar/232/"
+    },
+    {
+        "id": 3,
+        "name": "Dr. Harsh Goud",
+        "desg1": "HOD ECE",
+        "image": "https://iiitn.ac.in/images/faculty/87.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Dr. Sushmita Dandeliya",
+        "desg1": "Assistant Professor",
+        "image": "https://iiitn.ac.in/images/faculty/151.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Dr. Snehal B. Shinde",
+        "desg2": "Assistant Professor",
+        "image": "https://www.iiitn.ac.in/images/faculty/129.jpg"
+    }
+]

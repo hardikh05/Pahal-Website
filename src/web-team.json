@@ -1,0 +1,37 @@
+[
+    {
+        "id": 14,
+        "name": "Udbhav Mittal",
+        "image": "https://i.ibb.co/c29S6LH/udbhav.jpg",
+        "desg1": "Lead",
+        "desg2": "UI/UX & Web Developer"
+    },
+    {
+        "id": 15,
+        "name": "Nikhil Mishra",
+        "image": "",
+        "desg1": "Contributor",
+        "desg2": "Web Developer"
+    },
+    {
+        "id": 16,
+        "name": "Sharit Vaishnav",
+        "image": "https://i.ibb.co/rb9MxFC/sharit.jpg",
+        "desg1": "Contributor",
+        "desg2": "Web Developer"
+    },
+    {
+        "id": 17,
+        "name": "Hardik Sharma",
+        "image": "https://i.ibb.co/p1yBJkR/hardik.jpg",
+        "desg1": "Contributor",
+        "desg2": "Web Developer"
+    },
+    {
+        "id": 18,
+        "name": "Harsh Suhan",
+        "image": "https://i.ibb.co/Fb6fckV/suhan.jpg",
+        "desg1": "Contributor",
+        "desg2": "Web Developer"
+    }
+]

@@ -1,7 +1,8 @@
 .rect{
     width: 3rem;
-    height: 18rem;
+    height: 100%;
     background: yellow;
     border-top-left-radius: 2rem;
     border-bottom-left-radius: 2rem;
 }
+

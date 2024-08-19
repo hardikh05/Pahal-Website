@@ -61,7 +61,7 @@ function Navbar() {
             <Link to="/aboutus">About Us</Link>
           </li>
           <li>
-            <Link to="/">Projects</Link>
+            <Link to="/">Events</Link>
           </li>
           <li>
             <Link to="/team">Team</Link>
@@ -90,7 +90,7 @@ function Navbar() {
               <Link to="/aboutus" onClick={toggleMenu}>About Us</Link>
             </li>
             <li className="border-b border-yellow-200 pb-2 ml-4">
-              <Link to="/" onClick={toggleMenu}>Projects</Link>
+              <Link to="/" onClick={toggleMenu}>Events</Link>
             </li>
             <li className="border-b border-yellow-200 pb-2 ml-4">
               <Link to="/team" onClick={toggleMenu}>Team</Link>

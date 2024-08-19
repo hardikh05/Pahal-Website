@@ -1,0 +1,41 @@
+[
+    {
+        "id": 7,
+        "name": "Hardik Sharma",
+        "image": "https://i.ibb.co/p1yBJkR/hardik.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Akshat Singh Chauhan",
+        "image": "https://i.ibb.co/tZtTjDV/akshat.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Rudra Pratap Singh",
+        "image": "https://i.ibb.co/YRqwTJG/rps.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Yuvraj Singh",
+        "image": "https://i.ibb.co/RQZ1tCw/yuvii.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Aarush Chandra",
+        "image": "https://i.ibb.co/WWrKDnp/aarush.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Vinayak"
+    },
+    {
+        "id": 13,
+        "name": "Manthan Shah",
+        "image": "https://i.ibb.co/YZVCLgV/manthan.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Geetansh Yadav",
+        "image": "https://i.ibb.co/m97qQSt/geetansh.jpg"
+    }
+]
