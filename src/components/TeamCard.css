@@ -77,3 +77,32 @@
   height: 100%;
 }
 
+.anim:hover{
+  animation: rotate 1s;
+}
+
+.anim{
+  animation: rotate-r 1s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+    border-radius: 0%;
+  }
+  100% {
+    transform: rotate(360deg);
+    border-radius: 50%;
+  }
+}
+
+@keyframes rotate-r {
+  0% {
+    transform: rotate(0deg);
+    border-radius: 50%;
+  }
+  100% {
+    transform: rotate(360deg);
+    border-radius: 0%;
+  }
+}
