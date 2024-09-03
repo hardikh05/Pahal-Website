@@ -88,7 +88,6 @@
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
-    border-radius: 0%;
   }
   100% {
     transform: rotate(360deg);
@@ -103,6 +102,6 @@
   }
   100% {
     transform: rotate(360deg);
-    border-radius: 0%;
+
   }
 }

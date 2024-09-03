@@ -92,7 +92,7 @@ const Footer = () => {
             Copyright © 2024 Pahal IIITN All Rights Reserved.
           </span>
         </div>
-        <div className="w-full md:w-[32%] flex-col gap-3 flex items-center justify-center p-6 md:p-0">
+        <div className="w-full md:w-[32%] md:flex-col flex-col-reverse gap-3 flex items-center justify-center p-6 md:p-0">
           <iframe
             className="hover:scale-125 transition-all hover:shadow-xl duration-700 border-slate-400 border-3 rounded-lg h-[200px] w-[80%] md:h-[60%] md:w-[60%]"
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14904.257577735123!2d79.026375!3d20.949929!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c0529518230f%3A0x45b76be0621cbb88!2sIndian%20Institute%20of%20Information%20Technology%2C%20Nagpur%20(IIITN)!5e0!3m2!1sen!2sin!4v1723369902147!5m2!1sen!2sin"

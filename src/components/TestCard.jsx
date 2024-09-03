@@ -15,10 +15,10 @@ const TestCard = (props) => {
                 <div class="font-bold text-lg md:text-xl">
                     {review.name}
                 </div>
-                <div class="font-bold text-md text-[#6d6d6d] mb-2">
+                <div class="font-bold text-md text-[#383838] mb-2">
                     {review.place}
                 </div>
-                <p class="text-gray-700 text-sm md:text-base">
+                <p class="text-gray-900 text-sm md:text-base">
                     {review.text}
                 </p>
             </div>

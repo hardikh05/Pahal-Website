@@ -20,11 +20,11 @@ const TeamCard = (props) => {
           <div className="text-opacity-60 mt-1">{patcoord.desg2}</div>
         </div>
         <div className="links flex justify-center items-center space-x-4 mt-3">
-          <a href={patcoord.iglink} className="icon">
-            <FaSquareInstagram />
+          <a href={patcoord.iglink} className="icon cursor-pointer bg-gray-400 p-1 rounded-md hover:bg-[linear-gradient(120deg,#f9ce34,#ee2a7b,#6338d7)] transition-all hover:rounded-full anim">
+            <FaInstagram fill="#fff" />
           </a>
-          <a href={patcoord.linkedinlink} className="icon">
-            <FaLinkedin />
+          <a href={patcoord.linkedinlink} className="icon cursor-pointer bg-gray-400 rounded-md p-1 hover:bg-[#002aff] hover:rounded-full anim">
+            <FaLinkedin fill="#fff" />
           </a>
         </div>
       </div>
@@ -41,10 +41,10 @@ const TeamCard = (props) => {
           <div className="text-opacity-60 mt-1">{web.desg2}</div>
         </div>
         <div className="links flex justify-center items-center space-x-4 mt-3">
-          <a href={web.iglink} className="icon cursor-pointer bg-black p-1 hover:bg-[linear-gradient(120deg,#f9ce34,#ee2a7b,#6338d7)] transition-all hover:rounded-full anim">
+          <a href={web.iglink} className="icon cursor-pointer bg-gray-400 p-1 rounded-md hover:bg-[linear-gradient(120deg,#f9ce34,#ee2a7b,#6338d7)] transition-all hover:rounded-full anim">
             <FaInstagram fill="#fff" />
           </a>
-          <a href={web.linkedinlink} className="icon cursor-pointer bg-black p-1 hover:bg-[#002aff] hover:rounded-full anim">
+          <a href={web.linkedinlink} className="icon cursor-pointer bg-gray-400 rounded-md p-1 hover:bg-[#002aff] hover:rounded-full anim">
             <FaLinkedin fill="#fff" />
           </a>
         </div>
@@ -62,11 +62,11 @@ const TeamCard = (props) => {
           <div className="text-opacity-60 mt-1">{founders.desg2}</div>
         </div>
         <div className="links flex justify-center items-center space-x-4 mt-3">
-          <a href={founders.iglink} className="icon">
-            <FaSquareInstagram />
+          <a href={founders.iglink} className="icon cursor-pointer bg-gray-400 p-1 rounded-md hover:bg-[linear-gradient(120deg,#f9ce34,#ee2a7b,#6338d7)] transition-all hover:rounded-full anim">
+            <FaInstagram fill="#fff" />
           </a>
-          <a href={founders.linkedinlink} className="icon">
-            <FaLinkedin />
+          <a href={founders.linkedinlink} className="icon cursor-pointer bg-gray-400 rounded-md p-1 hover:bg-[#002aff] hover:rounded-full anim">
+            <FaLinkedin fill="#fff" />
           </a>
         </div>
       </div>

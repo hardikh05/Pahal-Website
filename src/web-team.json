@@ -7,16 +7,16 @@
         "desg2": "UI/UX & Web Developer"
     },
     {
-        "id": 15,
-        "name": "Sharit Vaishnav",
-        "image": "https://i.ibb.co/rb9MxFC/sharit.jpg",
+        "id": 16,
+        "name": "Nikhil Mishra",
+        "image": "",
         "desg1": "Co-Lead",
         "desg2": "Web Developer"
     },
     {
-        "id": 16,
-        "name": "Nikhil Mishra",
-        "image": "",
+        "id": 15,
+        "name": "Sharit Vaishnav",
+        "image": "https://i.ibb.co/rb9MxFC/sharit.jpg",
         "desg1": "Contributor",
         "desg2": "Web Developer"
     },

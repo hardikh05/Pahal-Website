@@ -1,15 +1,20 @@
-.btn{
-    background-image: linear-gradient(to right, #F5E500, #F2A800);
+.btn {
+    background-image: linear-gradient(240deg, #F5E500, #F2A800);
     width: 170px;
     height: 50px;
     border-radius: 40px;
     color: white;
     font-weight: bolder;
-    transition-duration: 500ms;
-    text-align: right;
-    
+    transition: background-image 0.5s, transform 0.3s;
+    text-align: center; /* Centering text */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Ensuring text is vertically and horizontally centered */
+    border: none; /* Remove border if any */
+    cursor: pointer; /* Pointer cursor on hover */
 }
-.btn:hover{
-    transform: scale(1.05);
-    
+
+.btn:hover {
+    transform: scale(1.15);
+    background-image: linear-gradient(120deg, #F5E500, #F2A800);
 }

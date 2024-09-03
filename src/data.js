@@ -46,24 +46,24 @@ const reviews = [
 
 export const value = [
   {
-      number: "1",
+      name: "Value Name",
       value : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui minus corporis atque voluptatum cupiditate aperiam laudantium molestias a ducimus temporibus"
   }
   ,
   {
-      number: "2",
+      name: "Value Name",
       value : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui minus corporis atque voluptatum cupiditate aperiam laudantium molestias a ducimus temporibus"
   },
   {
-      number: "3",
+      name: "Value Name",
       value : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui minus corporis atque voluptatum cupiditate aperiam laudantium molestias a ducimus temporibus"
   },
   {
-      number: "4",
+      name: "Value Name",
       value : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui minus corporis atque voluptatum cupiditate aperiam laudantium molestias a ducimus temporibus"
   },
   {
-      number: "5",
+      name: "Value Name",
       value : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui minus corporis atque voluptatum cupiditate aperiam laudantium molestias a ducimus temporibus"
   }
 ]
