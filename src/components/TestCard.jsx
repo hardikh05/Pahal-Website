@@ -18,7 +18,15 @@ const TestCard = (props) => {
                 <div class="font-bold text-md text-[#383838] mb-2">
                     {review.place}
                 </div>
+<<<<<<< Updated upstream
                 <p class="text-gray-900 text-sm md:text-base">
+=======
+<<<<<<< HEAD
+                <p class="text-gray-700 text-base">
+=======
+                <p class="text-gray-900 text-sm md:text-base">
+>>>>>>> ae0ca71d059906025d0508cbcb5aabb167bb2a1c
+>>>>>>> Stashed changes
                     {review.text}
                 </p>
             </div>
