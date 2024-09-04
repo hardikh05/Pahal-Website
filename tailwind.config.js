@@ -44,7 +44,22 @@ module.exports = {
     //   'limegreen': "#CBFF00",
     //   'default':"#FFFFFF",
     // },
+    animation: {
+      wiggle: "wiggle 1s ease-in-out infinite",
+      blink: "blink 250ms linear infinite",
+    },
+    keyframes: {
+      wiggle: {
+        "0%, 100%": { transform: "rotate(-3deg)" },
+        "50%": { transform: "rotate(3deg)" },
+      },
+      blink: {
+        "0%, 100%": { opacity: "1" },
+        "50%": { opacity: "0" },
+      },
+    },
   },
+  
 
   plugins: [],
 };

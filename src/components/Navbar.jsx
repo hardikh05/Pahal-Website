@@ -1,24 +1,33 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import logo from "../assets/pahal logo 1.png";
 import { Link } from "react-router-dom";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
+import { motion } from "framer-motion";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-
+  const [current, setCurrent] = useState(localStorage.getItem('current') || "home"); // Initialize from localStorage
+  
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  // Update local storage whenever current state changes
+  useEffect(() => {
+    localStorage.setItem('current', current);
+  }, [current]);
 
   return (
     <div className="flex flex-col w-full relative font-small-head">
       {/* header */}
       <div className="bg-slate-50 w-full flex items-center justify-between py-2 px-6">
-        <div className="w-[120px]">
-          <img src={logo} alt="pahal-logo" />
+        <div className="w-[120px] hover:scale-110 duration-300 cursor-pointer">
+          <Link to="/">
+            <img src={logo} alt="pahal-logo" />
+          </Link>
         </div>
 
         {/* Phone and Email Section */}
@@ -52,22 +61,22 @@ function Navbar() {
       </div>
 
       {/* Navbar Links for large screens */}
-      <nav className="hidden md:flex py-4 px-[10vw] nav w-full font-bold text-lg justify-between text-default bg-slate-50">
-        <ul className="flex flex-wrap text-white w-full justify-between font-small-head">
-          <li>
-            <Link to="/">Home</Link>
+      <nav className="hidden md:flex py-4 px-[10vw] nav w-full font-[500] text-lg justify-between text-default bg-slate-50">
+        <ul className="flex flex-wrap text-white w-full justify-between items-center font-small-head uppercase">
+          <li className={`${current === "home" ? "bg-white text-yellow-500 px-4 py-2 rounded-md duration-500" : "rounded-md hover:scale-110 duration-500"}`}>
+            <Link to="/" onClick={() => setCurrent("home")}>Home</Link>
           </li>
-          <li>
-            <Link to="/aboutus">About Us</Link>
+          <li className={`${current === "aboutus" ? "bg-white text-yellow-500 px-4 py-2 rounded-md duration-500" : "rounded-md hover:scale-110 duration-500"}`}>
+            <Link to="/aboutus" onClick={() => setCurrent("aboutus")}>About Us</Link>
           </li>
-          <li>
-            <Link to="/">Events</Link>
+          <li className={`${current === "events" ? "bg-white text-yellow-500 px-4 py-2 rounded-md duration-500" : "rounded-md hover:scale-110 duration-500"}`}>
+            <Link to="/" onClick={() => setCurrent("events")}>Events</Link>
           </li>
-          <li>
-            <Link to="/team">Team</Link>
+          <li className={`${current === "team" ? "bg-white text-yellow-500 px-4 py-2 rounded-md duration-500" : "rounded-md hover:scale-110 duration-500"}`}>
+            <Link to="/team" onClick={() => setCurrent("team")}>Team</Link>
           </li>
-          <li>
-            <Link to="/contact">Contact Us</Link>
+          <li className={`${current === "contact" ? "bg-white text-yellow-500 px-4 py-2 rounded-md duration-500" : "rounded-md hover:scale-110 duration-500"}`}>
+            <Link to="/contact" onClick={() => setCurrent("contact")}>Contact Us</Link>
           </li>
         </ul>
       </nav>
@@ -84,19 +93,19 @@ function Navbar() {
         <nav className="flex flex-col p-4">
           <ul className="text-white font-bold text-lg space-y-6">
             <li className="border-b border-yellow-200 pb-2 ml-4">
-              <Link to="/" onClick={toggleMenu}>Home</Link>
+              <Link to="/" onClick={() => { toggleMenu(); setCurrent("home"); }}>Home</Link>
             </li>
             <li className="border-b border-yellow-200 pb-2 ml-4">
-              <Link to="/aboutus" onClick={toggleMenu}>About Us</Link>
+              <Link to="/aboutus" onClick={() => { toggleMenu(); setCurrent("aboutus"); }}>About Us</Link>
             </li>
             <li className="border-b border-yellow-200 pb-2 ml-4">
-              <Link to="/" onClick={toggleMenu}>Events</Link>
+              <Link to="/" onClick={() => { toggleMenu(); setCurrent("events"); }}>Events</Link>
             </li>
             <li className="border-b border-yellow-200 pb-2 ml-4">
-              <Link to="/team" onClick={toggleMenu}>Team</Link>
+              <Link to="/team" onClick={() => { toggleMenu(); setCurrent("team"); }}>Team</Link>
             </li>
             <li className="border-b border-yellow-200 pb-2 ml-4">
-              <Link to="/contact" onClick={toggleMenu}>Contact Us</Link>
+              <Link to="/contact" onClick={() => { toggleMenu(); setCurrent("contact"); }}>Contact Us</Link>
             </li>
           </ul>
         </nav>

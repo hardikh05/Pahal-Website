@@ -1,8 +1,4 @@
-.rect{
-    width: 3rem;
-    height: 100%;
-    background: yellow;
-    border-top-left-radius: 2rem;
-    border-bottom-left-radius: 2rem;
+#card{
+    border-image: linear-gradient(to right, #F5E500, #F2A800) 1;
 }
 
