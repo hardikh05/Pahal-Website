@@ -4,14 +4,14 @@ const reviews = [
     name: "Param",
     place: "Waranga",
     image: "https://aeccc.targettechnology.in/static/media/PranayGupta.f3c530b7630ba8efb2ab.jpg",
-    text: "I love Pahal! They help me with my homework and we do fun activities. I learned how to dance!"",
+    text: "I love Pahal! They help me with my homework and we do fun activities. I learned how to dance!",
   },
   {
     id: 2,
     name: "Sahil",
     place: "Waranga",
     image: "https://aeccc.targettechnology.in/static/media/AbirPal.574a09ad7cb325853b29.jpg",
-    text: "I love singing at Pahal. The volunteers are so nice and make me feel special. I’m better at school now!"",
+    text: "I love singing at Pahal. The volunteers are so nice and make me feel special. I’m better at school now!"
   },
   {
     id: 3,

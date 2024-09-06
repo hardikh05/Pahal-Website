@@ -70,7 +70,7 @@ function Navbar() {
             <Link to="/aboutus" onClick={() => setCurrent("aboutus")}>About Us</Link>
           </li>
           <li className={`${current === "events" ? "bg-white text-yellow-500 px-4 py-2 rounded-md duration-500" : "rounded-md hover:scale-110 duration-500"}`}>
-            <Link to="/" onClick={() => setCurrent("events")}>Events</Link>
+            <Link to="/event" onClick={() => setCurrent("events")}>Events</Link>
           </li>
           <li className={`${current === "team" ? "bg-white text-yellow-500 px-4 py-2 rounded-md duration-500" : "rounded-md hover:scale-110 duration-500"}`}>
             <Link to="/team" onClick={() => setCurrent("team")}>Team</Link>

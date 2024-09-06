@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import { Route, Routes } from "react-router-dom";
 import AboutUs from "./pages/AboutUs";
 import { motion } from "framer-motion";
+import Event from "./pages/Event";
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                 <Route path="/aboutus" element={<AboutUs />}></Route>
                 <Route path="/contact" element={<ContactUs />}></Route>
                 <Route path="/team" element={<Team />}></Route>
+                <Route path="/event" element={<Event />}></Route>
                 {/* other components */}
             </Routes>
             <Footer />
