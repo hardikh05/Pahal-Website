@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Dr. O.G. Kakde",
-        "image": "https://iiitn.ac.in/images/director.jpg",
+        "image": "https://iiitn.ac.in/_next/image?url=%2FaboutUs%2Fdirector.jpg&w=256&q=100",
         "desg1": "Director",
         "iglink": "https://iiitn.ac.in/page/director/25/",
         "linkedinlink":"https://iiitn.ac.in/page/director/25/"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "name": "Shri Kailash N. Dakhle",
-        "image": "https://iiitn.ac.in/images/faculty/knd.jpg",
+        "image": "https://iiitn.ac.in/institute/director_img.jpg",
         "desg1": "Registrar",
         "iglink": "https://iiitn.ac.in/page/registrar/232/",
         "linkedinlink":"https://iiitn.ac.in/page/registrar/232/"
@@ -19,18 +19,18 @@
         "id": 3,
         "name": "Dr. Harsh Goud",
         "desg1": "HOD ECE",
-        "image": "https://iiitn.ac.in/images/faculty/87.jpg"
+        "image": "https://ece.iiitn.ac.in/ECE/image/Dr_Harsh_Goud.JPG"
     },
     {
         "id": 4,
         "name": "Dr. Sushmita Dandeliya",
         "desg1": "Assistant Professor",
-        "image": "https://iiitn.ac.in/images/faculty/151.jpg"
+        "image": "https://ece.iiitn.ac.in/ECE/image/Dr_Sushmita_Dandeliya.JPG"
     },
     {
         "id": 5,
         "name": "Dr. Snehal B. Shinde",
         "desg2": "Assistant Professor",
-        "image": "https://www.iiitn.ac.in/images/faculty/129.jpg"
+        "image": "https://cse.iiitn.ac.in/CSE/image/Dr%20Snehal%20Bankatrao%20Shinde.JPG"
     }
 ]
