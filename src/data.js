@@ -46,27 +46,27 @@ const reviews = [
 
 export const value = [
   {
-      name: "Value Name",
-      value : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui minus corporis atque voluptatum cupiditate aperiam laudantium molestias a ducimus temporibus"
+    name: "Integrity",
+    value: "Upholding honesty and strong moral principles in all our actions and decisions."
+  },
+  {
+    name: "Empathy",
+    value: "Understanding and sharing the feelings of others to create a supportive environment."
+  },
+  {
+    name: "Innovation",
+    value: "Constantly seeking new and creative ways to improve and make an impact."
+  },
+  {
+    name: "Collaboration",
+    value: "Working together as a team to achieve common goals and mutual success."
+  },
+  {
+    name: "Excellence",
+    value: "Striving for the highest quality in all we do, ensuring continuous growth and learning."
   }
-  ,
-  {
-      name: "Value Name",
-      value : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui minus corporis atque voluptatum cupiditate aperiam laudantium molestias a ducimus temporibus"
-  },
-  {
-      name: "Value Name",
-      value : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui minus corporis atque voluptatum cupiditate aperiam laudantium molestias a ducimus temporibus"
-  },
-  {
-      name: "Value Name",
-      value : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui minus corporis atque voluptatum cupiditate aperiam laudantium molestias a ducimus temporibus"
-  },
-  {
-      name: "Value Name",
-      value : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui minus corporis atque voluptatum cupiditate aperiam laudantium molestias a ducimus temporibus"
-  }
-]
+];
+
 
 
 
