@@ -17,11 +17,8 @@ export default function HomeAbout({ about }) {
                             <h2>About PAHAL</h2>
                         </div>
                         <p className="font-small-head mt-4 lg:mt-6 text-base sm:text-lg lg:text-xl">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui minus corporis atque voluptatum cupiditate aperiam laudantium molestias a ducimus
-                            temporibus deserunt at corrupti voluptatibus, accusamus necessitatibus nesciunt eligendi tempora sint. Lorem ipsum dolor sit, amet consectetur
-                            adipisicing elit. Qui minus corporis atque voluptatum cupiditate aperiam laudantium molestias a ducimus temporibus deserunt at corrupti voluptatibus,
-                            accusamus necessitatibus nesciunt eligendi tempora sint. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui minus corporis atque voluptatum
-                            cupiditate aperiam laudantium molestias a ducimus temporibus deserunt at...
+                            The 'पहल' initiative, spearheaded by the students of IIIT Nagpur, stands as a beacon of hope for the Waranga Village community and the college's support staff, providing them with invaluable opportunities for growth and development. This transformative program caters to various subjects, including English (both speaking and writing), personality development, higher mathematics, and cyber security. Moreover, it nurtures co-curricular skills such as singing, dancing, flute playing, and dramatics, fostering holistic growth among the participants.
+                        Since its inception on 10 June 2023, the 'पहल' initiative has garnered unprecedented support from the community, witnessing a steady increase in the number of enthusiastic participants with each class. The local administration's unwavering assistance has further amplified its impact. Through these sessions, students have reported remarkable improvements in their academic performance, increased confidence, and a newfound drive to achieve their goals. Additionally, the initiative has honed their co-curricular talents, enriching their overall skill set.
                         </p>
                         <button className="btn mt-6 lg:mt-8 font-small-head">READ MORE...</button>
                     </div>
