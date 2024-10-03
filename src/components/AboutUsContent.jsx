@@ -30,8 +30,7 @@ const AboutusContent = () => {
 
                 <div className="rounded-md font-small-head w-full md:w-[80%] text-center md:text-left">
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui minus corporis atque voluptatum cupiditate aperiam laudantium molestias a ducimus temporibus
-                        deserunt at corrupti voluptatibus, accusamus necessitatibus nesciunt eligendi tempora sint. Lorem ipsum dolor sit, amet.
+                      ‘पहल’ an initiative by the students of the Indian Institute of Technology Nagpur aims to provide educational guidance to society's socially and economically weaker sections. ‘पहल’ aims to create a more inclusive and equitable educational environment for these students by providing educational guidance and support.
                     </p>
                 </div>
             </motion.div>
@@ -55,8 +54,7 @@ const AboutusContent = () => {
                     </div>
                     <div className="w-full font-small-head md:w-[50rem] text-justify">
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui minus corporis atque voluptatum cupiditate aperiam laudantium molestias a ducimus
-                            temporibus deserunt at corrupti voluptatibus, accusamus necessitatibus nesciunt eligendi tempora sint. Lorem ipsum dolor sit, amet.
+                          The mission of 'पहल' is to provide educational guidance and support to the socially and economically weaker sections of society. It aims to create a more inclusive educational environment, empower underprivileged students, and foster their academic and personal development. By offering mentoring, tutoring, and access to educational resources, 'पहल' seeks to break the cycle of poverty, promote equal education opportunities, and cultivate a culture of community service among students and volunteers.
                         </p>
                     </div>
                 </div>
