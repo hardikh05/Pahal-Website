@@ -25,7 +25,7 @@ const AboutusContent = () => {
                 </div>
 
                 <div className="rounded-md h-80 w-full md:w-[35rem] sm:w-[27rem] max-[640px]:h-60 flex justify-center items-center">
-                    <img src="../assets/main.jpg" className="h-80 w-full md:w-[35rem] sm:w-[27rem] max-[640px]:h-60 border-[3px] border-yellow-400 rounded-3xl" />
+                    <img src="https://api.iiitn.ac.in/data/IIITN/2024/September/ContentDocs/GL_ID_1726731963036CbZ5UCoWuqMP03E/17267319613194lJqVrcid0XIe1X.jpg" className="h-80 w-full md:w-[35rem] sm:w-[27rem] max-[640px]:h-60 border-[3px] border-yellow-400 rounded-3xl" />
                 </div>
 
                 <div className="rounded-md font-small-head w-full md:w-[80%] text-center md:text-left">
@@ -50,7 +50,7 @@ const AboutusContent = () => {
 
                 <div className="flex flex-col md:flex-row justify-evenly w-full md:w-[90%] flex-wrap items-center p-5 py-10 rounded-md bg-slate-200 gap-5 max-[640px]:gap-3">
                     <div className="rounded-md h-60 w-full md:w-80 sm:w-[27rem] max-[640px]:h-60 flex justify-center items-center">
-                        <img src="main.jpg" className="h-60 w-full md:w-80 sm:w-[27rem] max-[640px]:h-60 border-[3px] border-yellow-400 rounded-3xl" />
+                        <img src="https://api.iiitn.ac.in/data/IIITN/2024/September/ContentDocs/GL_ID_1726731929434u7Xfc7hhNNPDXZw/17267319287019e86lLK9VXrMGck.jpg" className="h-60 w-full md:w-80 sm:w-[27rem] max-[640px]:h-60 border-[3px] border-yellow-400 rounded-3xl" />
                     </div>
                     <div className="w-full font-small-head md:w-[50rem] text-justify">
                         <p>
